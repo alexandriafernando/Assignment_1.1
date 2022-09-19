@@ -8,6 +8,7 @@ public class question1 {
         String x = scanner.nextLine();
         int y = x.length();
         for (int i = 0; i < y; i++)
+
         {
             counter[(int) x.charAt(i)]++;
         }
